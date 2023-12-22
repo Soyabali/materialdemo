@@ -50,6 +50,9 @@ class MyHomePage extends StatefulWidget {
 
   final String title;
   final String name;
+  final String name2;
+  final String name3;
+  final String name4;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -57,6 +60,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  int _counter2 = 0;
 
   void _incrementCounter() {
     setState(() {
